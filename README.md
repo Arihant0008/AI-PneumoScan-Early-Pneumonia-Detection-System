@@ -43,16 +43,4 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 
 
-## 🗂 Custom Dataset Structure:
-Split	Class	Image Count
-Training	Normal	1341
-Pneumonia	3479
-Validation	Normal	104
-Pneumonia	402
-Testing	Normal	138
-Pneumonia	390
-📦 Total Images: 5854
 
-🧪 Binary classification task (Normal vs Pneumonia)
-
-📐 Images have been resized and normalized to fit the model input requirements (typically 128x128 or 224x224)
