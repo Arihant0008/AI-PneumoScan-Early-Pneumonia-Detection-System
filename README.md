@@ -14,31 +14,45 @@ This project is a deep learning-based system for detecting pneumonia in chest X-
 
 ---
 
-## 📁 Directory Structure
 
-<Br>Dataset Details</Br>
-Dataset Name            : Chest X-Ray Images (Pneumonia)
-Number of Class         : 2
-Number/Size of Images   : Total      : 5856 (1.15 Gigabyte (GB))
-                          Training   : 5216 (1.07 Gigabyte (GB))
-                          Validation : 320  (42.8 Megabyte (MB))
-                          Testing    : 320  (35.4 Megabyte (MB))
+## 📂 Dataset Details Dataset Name : 
+Chest X-Ray Images (Pneumonia) Number of Class : 
+- 2 Number/Size of Images : Total : 5856 (1.15 Gigabyte (GB)) 
+- Training : 5216 (1.07 Gigabyte (GB)) 
+- Validation : 320 (42.8 Megabyte (MB)) 
+- Testing : 320 (35.4 Megabyte (MB)) <Br>
+      
+## ⚙️ Model Parameters Machine Learning Library: 
+Keras Base Model : 
+- Custom Deep Convolutional Neural Network Optimizer : RMSprop
+- Loss Function : binary_crossentropy <Br>
+  
+## 🏋️ Training Parameters 
+- Batch Size : 32 
+- Number of Epochs : 12 
+- Training Time : ~1 Hours 
+## 📈 Testing Results 
+- Accuracy (F1 Score) : 93% 
+- Loss : 0.223
+- Precision : 94%
+- Recall (Pneumonia) : 95% (For positive class) 
 
-Model Parameters
-Machine Learning Library: Keras
-Base Model              : InceptionV3 && Custom Deep Convolutional Neural Network
-Optimizers              : Adam
-Loss Function           : categorical_crossentropy
+## 📂 Dataset
+We used the Chest X-Ray Images (Pneumonia) dataset available on Kaggle:
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
-For Custom Deep Convolutional Neural Network : 
-Training Parameters
-Batch Size              : 64
-Number of Epochs        : 30
-Training Time           : 2 Hours
 
-Output (Prediction/ Recognition / Classification Metrics)
-Testing
-Accuracy (F-1) Score    : 89.53%
-Loss                    : 0.41
-Precision               : 88.37%
-Recall (Pneumonia)      : 95.48% (For positive class)
+
+## 🗂 Custom Dataset Structure:
+Split	Class	Image Count
+Training	Normal	1341
+Pneumonia	3479
+Validation	Normal	104
+Pneumonia	402
+Testing	Normal	138
+Pneumonia	390
+📦 Total Images: 5854
+
+🧪 Binary classification task (Normal vs Pneumonia)
+
+📐 Images have been resized and normalized to fit the model input requirements (typically 128x128 or 224x224)
