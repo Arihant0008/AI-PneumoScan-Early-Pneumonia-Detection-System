@@ -41,6 +41,11 @@ Keras Base Model :
 We used the Chest X-Ray Images (Pneumonia) dataset available on Kaggle:
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
+## Clone the Repository
 
+Use the following command to clone the repository:
+
+```bash
+git clone https://github.com/username/repository.git](https://github.com/Arihant0008/AI-PneumoScan-Early-Pneumonia-Detection-System.git  
 
 
