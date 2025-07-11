@@ -46,6 +46,6 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 Use the following command to clone the repository:
 
 ```bash
-git clone https://github.com/Arihant0008/AI-PneumoScan-Early-Pneumonia-Detection-System.git  
+git clone https://github.com/Arihant0008/AI-PneumoScan-Early-Pneumonia-Detection-System.git 
 
 
