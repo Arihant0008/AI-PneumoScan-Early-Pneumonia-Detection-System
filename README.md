@@ -3,7 +3,10 @@
 This project is a deep learning-based system for detecting pneumonia in chest X-ray images. Built using TensorFlow and Keras, the CNN model effectively classifies images into "Pneumonia" or "Normal" categories. This tool can assist in medical diagnostics, especially in under-resourced environments.
 
 ---
-
+## Deployed model link :-
+```
+https://huggingface.co/spaces/Arihant0008/Pneumonia-Detector-App
+```
 ## 🛠️ Technologies Used
 
 - Python 3.x
